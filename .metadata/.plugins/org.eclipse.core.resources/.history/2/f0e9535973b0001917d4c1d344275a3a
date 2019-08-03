@@ -1,0 +1,38 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Dropdown {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		//First step: Create driver object
+		System.setProperty("webdriver.chrome.driver", "D:\\POC\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		//driver.get("https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html");
+		//Select list = new Select(driver.findElement(By.xpath("//select[@id=\"select-demo\"]")));
+		//list.selectByValue("Wednesday");
+		//list.selectByIndex(3);
+		
+		driver.get("https://www.spicejet.com/");
+		driver.findElement(By.xpath("//div[@id='divpaxinfo']")).click();
+		Thread.sleep(2000);
+		
+		int i;
+		While(i < = 4)
+		{
+			driver.findElement(By.xpath("//span[@id='hrefIncAdt']")).click();
+			i++;
+		}
+		
+		
+		
+		
+		
+		
+		
+	
+
+	}
+}
