@@ -18,6 +18,7 @@ public class Test1_locators2 {
 		driver.findElement(By.xpath("//form[@id='tsf']/div[2]/div/div[1]/div/div[1]/input")).sendKeys("What is the time");
 		driver.findElement(By.xpath("//input[@id='tsf']/div[2]/div/div[3]/center/input[1]")).click();
 		//lerning git fetch and git pull
+		//leraning git commands
 	
 
 	}
