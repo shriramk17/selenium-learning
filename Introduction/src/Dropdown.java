@@ -12,16 +12,7 @@ public class Dropdown {
 		WebDriver driver = new ChromeDriver();
 		//driver.get("https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html");
 		driver.get("https://www.spicejet.com/");
-		Select list = new Select(driver.findElement(By.xpath("//select[@id='ctl00_mainContent_ddl_originStation1']")));
-		list.selectByValue("PNQ");
-		Thread.sleep(1000);
-		list = new Select(driver.findElement(By.xpath("//select[@id='ctl00_mainContent_ddl_destinationStation1']")));
-		list.selectByValue("TIR");
-		list.get
-		System.out.println("You are going from " +
-		driver.findElement(By.xpath("//select[@id='ctl00_mainContent_ddl_originStation1']")).getText()+ 
-		" to " +driver.findElement(By.xpath("//select[@id='ctl00_mainContent_ddl_destinationStation1']")).get));
-		
+				
 		
 //		driver.findElement(By.xpath("//div[@id='divpaxinfo']")).click();
 //		Thread.sleep(2000);
